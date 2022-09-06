@@ -10,6 +10,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CMPG323_Project2_35526734.Models;
+
 
 namespace CMPG323_Project2_35526734
 {
