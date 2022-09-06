@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using JWTAuthentication.Authentication;
+using CMPG323_Project2_35526734.Authentication;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -13,7 +13,7 @@ using System.Security.Claims;
 using System.Text;
 
 
-namespace JWTAuthentication.Controllers
+namespace CMPG323_Project2_35526734.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

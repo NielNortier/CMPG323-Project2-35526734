@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-namespace JWTAuthentication.Authentication
+namespace CMPG323_Project2_35526734.Authentication
 {
     public class Response
     {

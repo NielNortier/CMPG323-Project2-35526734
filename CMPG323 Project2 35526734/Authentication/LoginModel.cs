@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 
-namespace JWTAuthentication.Authentication
+namespace CMPG323_Project2_35526734.Authentication
 {
     public class LoginModel
     {
