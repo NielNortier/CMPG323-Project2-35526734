@@ -27,7 +27,7 @@ namespace CMPG323_Project2_35526734.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
+
                 optionsBuilder.UseSqlServer("Server=tcp:project2database35526734.database.windows.net,1433;Initial Catalog=Project2Database;Persist Security Info=False;User ID=Niel35526734;Password=NielNortier123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
             }
         }
