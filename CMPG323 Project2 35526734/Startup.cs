@@ -39,7 +39,7 @@ namespace CMPG323_Project2_35526734
         {
             services.AddControllers();
             services.AddDbContext<Project2DatabaseContext>(options => options.UseSqlServer("name=ConnectionStrings:DefaultConnection"));
-            services.AddSwaggerGen(options => { options.SwaggerDoc("v2", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "CMPG323 Project2 35526734", Version = "v2", Description = "Test demo for students", }); });
+            services.AddSwaggerGen(options => { options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "CMPG323 Project2 35526734", Version = "v1", Description = "Test demo for students", }); });
             services.AddSwaggerGen(c => {
                 
                 c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
@@ -126,7 +126,7 @@ namespace CMPG323_Project2_35526734
                 endpoints.MapControllers();
             });
             app.UseSwagger(); 
-            app.UseSwaggerUI(options => options.SwaggerEndpoint("/swagger/v2/swagger.json", "CMPG323 Project2 35526734"));
+            app.UseSwaggerUI(options => options.SwaggerEndpoint("/swagger/v1/swagger.json", "CMPG323 Project2 35526734"));
         }
     }
 }
